@@ -1,12 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <title>Mercadinho Supercompras</title>
 </head>
 <body>
+
+    <header id="header">
+        <div id="logo">
+            <a href="./">
+                <img src="./img/institucional/logo-supercompras.png" alt="Logo Supercompras">
+            </a>
+        </div>
+        <div class="containerInput">
+            <input id="inputEncontre" type="text" placeholder="Encontre mais rápido">
+            <span class="iconPesquisar"><img src="./img/institucional/icon-pesquisar.svg" alt=""></span>
+        </div>
+
+    </header>
+
+    <div class="localizacaoEntrega">
+        <img src="./img/institucional/icon-localizacao.svg" alt="">
+        <span>Entregar em, <span class="corLocalizacao">Santa Cruz</span></span>
+        <img class="setaPraBaixo" src="./img/institucional/seta-pra-baixo.svg" alt="">
+    </div>
+
+    <section class="secaoCategorias">
+        <div class="cardsCategorias">
+            <p class="cardCategoria">Ofertas</p>
+        </div>
+        <div class="cardsCategorias">
+            <p class="cardCategoria">Hortifruti</p>
+        </div>
+        <div class="cardsCategorias">
+            <p class="cardCategoria">Matinais</p>
+        </div>
+        <div class="cardsCategorias">
+            <p class="cardCategoria">Bebidas</p>
+        </div>
+    </section>
+
+    <section class="listaProdutos">
+        <h3 class="categoriaTitulo">DESTAQUES</h3>
+        <ul class="cards">
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="listaProdutos">
+        <h3 class="categoriaTitulo">DESTAQUES</h3>
+        <ul class="cards">
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="listaProdutos">
+        <h3 class="categoriaTitulo">DESTAQUE</h3>
+        <ul class="cards">
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="cardProduto">
+                    <img class="imgProduto" src="./img/produtos/arroz-tio-joao.jpg" alt="">
+                    <p class="nomeProduto">Arroz Tio João 5kg</p>
+                    <div class="displayControle">
+                        <a class="btnMenos" href="./"><img src="./img/institucional/sinal-menos.svg" alt=""></a>
+                        <div id="line"></div>
+                        <span class="contador">01</span>
+                        <div id="line"></div>
+                        <a class="btnMais" href="./"><img src="./img/institucional/sinal-mais.svg" alt=""></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <div class="btnsPaginas">
+            <a href="./"> <img src="./img/institucional/icon-home.svg" alt=""></a>
+            <a href="./"> <img src="./img/institucional/icon-pesquisar2.svg" alt=""></a>
+            <a href="./"> <img src="./img/institucional/icon-about.svg" alt=""></a>
+        </div>
+        <div>
+            <a class="btnTotal href="./">
+                <img class="iconBolsa" src="./img/institucional/icone-bolsa.svg" alt="">
+                <span class="textoTotal">TOTAL</span>
+                <span class="valorTotal">R$<span></span class="precoTotal">61,00</span>
+            </a>
+        </div>
+    </footer>
     <script src="./script.js"></script>
 </body>
 </html>
